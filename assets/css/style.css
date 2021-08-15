@@ -15,12 +15,7 @@ nav {
   font-size: 13px;
 }
 .logo {
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  color: rgb(47, 150, 107);
-  text-decoration: none;
-  transition: 300ms;
+  width: 40px;
 }
 
 .logo:hover {
@@ -244,4 +239,55 @@ footer {
 
 ::-webkit-scrollbar-thumb {
   background: rgb(175, 175, 175);
+}
+
+@media screen and (max-device-width: 480px) {
+  nav {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+  }
+
+  .logo {
+    width: 60px;
+  }
+  .menusosmed {
+    display: none;
+  }
+
+  .nav-item {
+    width: 100%;
+    background-color: #fff;
+    padding-top: 0.6rem;
+  }
+
+  .menu {
+    margin: 0;
+    color: #000;
+  }
+  .carousel-item {
+    width: 100%;
+    height: auto;
+  }
+  .judulikan {
+    text-align: center;
+  }
+  .lokasi {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    min-height: 600px;
+  }
+
+  .ketlokasi {
+    font-size: 13px;
+    text-align: justify;
+  }
+  .map {
+    width: 100%;
+    height: 350px;
+  }
+
+  .tentang {
+    padding-top: 2rem;
+  }
 }
