@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+.footer {
+  background-color: rgba(241, 241, 241, 0.411);
+  padding-right: 2rem;
+}
+nav {
+  height: 80px;
+  background-color: white;
+}
+
+.dropdown-item {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(47, 150, 107);
+  text-decoration: none;
+  transition: 300ms;
+}
+
+.logo:hover {
+  color: rgb(55, 175, 125);
+  transition: 300ms;
+}
+
+.menu {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+  margin-right: 3rem;
+  transition: 300ms;
+}
+
+.menu:hover {
+  color: rgb(55, 177, 126);
+  text-shadow: 0px 0px 15px rgb(198, 255, 231);
+}
+
+.menusosmed {
+  margin-left: 5rem;
+}
+.socialmedia {
+  color: rgb(155, 155, 155);
+  margin-left: 20px;
+  margin-right: 20px;
+
+  transition: 300ms;
+}
+.wa {
+  color: rgb(23, 189, 120);
+}
+
+.wa:hover {
+  color: rgb(36, 238, 154);
+}
+.ig {
+  color: rgb(204, 70, 204);
+}
+.ig:hover {
+  color: rgb(250, 86, 250);
+  transition: 300ms;
+}
+
+.fb {
+  color: rgb(72, 77, 243);
+}
+.fb:hover {
+  color: rgb(101, 106, 255);
+  transition: 300ms;
+}
+
+.youtube {
+  color: rgb(185, 38, 38);
+}
+.youtube:hover {
+  color: rgb(250, 56, 56);
+  transition: 300ms;
+}
+
+.home {
+  min-height: 800px;
+}
+
+.judulhome {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  color: #373737;
+  padding-top: 7rem;
+}
+
+.kethome {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6e7177;
+  padding-top: 1rem;
+}
+
+.animated {
+  margin-top: 2rem;
+  margin-left: 12rem;
+}
+
+.button {
+  box-shadow: -1px 10px 26px 0px rgb(67, 196, 142);
+  background-color: rgb(47, 150, 107);
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 14px 22px;
+  transition: 400ms;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.button:hover {
+  box-shadow: -1px 10px 26px 0px rgb(67, 196, 142);
+  background-color: rgb(67, 196, 142);
+  transition: 700ms;
+  color: white;
+}
+
+.button2 {
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid rgb(47, 150, 107);
+  display: inline-block;
+  color: rgb(47, 150, 107);
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 14px 22px;
+  text-decoration: none;
+  transition: 400ms;
+  margin-top: 1rem;
+}
+.button2:hover {
+  background-color: transparent;
+  transition: 700ms;
+  color: rgb(67, 196, 142);
+}
+
+.ikan {
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.judulikan {
+  padding: 20px 0 0 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  color: #4d4c4c;
+  font-weight: 400;
+  line-height: 1.2rem;
+  transition: 300ms;
+}
+
+.judulikan:hover {
+  color: rgb(47, 150, 107);
+  transition: 300ms;
+}
+
+.linkikan {
+  text-decoration: none;
+}
+
+.lokasi {
+  background-color: #f8f7f7;
+  margin-top: 9rem;
+  padding-top: 8rem;
+  min-height: 800px;
+  font-family: "Poppins", sans-serif;
+  color: #3f3f3f;
+  font-size: 16px;
+  font-weight: 600;
+}
+.judullokasi {
+  font-family: "Poppins", sans-serif;
+  color: #313131;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.ketlokasi {
+  font-family: "Poppins", sans-serif;
+  color: #313131;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.tentang {
+  padding-top: 5rem;
+  min-height: 800px;
+}
+.judulfounder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.namafounder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+.ketfounder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+footer {
+  background-color: #f8f7f7;
+  color: rgb(126, 126, 126);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  height: 45px;
+}
+/*css3 design scrollbar*/
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(231, 231, 231);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(175, 175, 175);
+}
