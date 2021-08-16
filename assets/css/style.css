@@ -63,6 +63,17 @@ nav {
   transition: 300ms;
 }
 
+.linkedin {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #373737;
+}
+
+.linkedin:hover {
+  color: rgb(0, 0, 250);
+  transition: 300ms;
+}
 .fb {
   color: rgb(72, 77, 243);
 }
@@ -176,8 +187,8 @@ nav {
 .lokasi {
   background-color: #f8f7f7;
   margin-top: 9rem;
-  padding-top: 8rem;
-  min-height: 800px;
+  padding-top: 5.5rem;
+  min-height: 750px;
   font-family: "Poppins", sans-serif;
   color: #3f3f3f;
   font-size: 16px;
